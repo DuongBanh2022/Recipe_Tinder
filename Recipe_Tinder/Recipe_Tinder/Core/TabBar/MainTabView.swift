@@ -18,7 +18,7 @@ struct MainTabView: View {
                 .tabItem{ Image (systemName: "magnifyingglass")}
                 .tag(1)
             
-            Text("Profile View")
+            CurrentUserProfileView(user: MockData.users[0])
                 .tabItem{ Image (systemName: "person")}
                 .tag(2)
         }
