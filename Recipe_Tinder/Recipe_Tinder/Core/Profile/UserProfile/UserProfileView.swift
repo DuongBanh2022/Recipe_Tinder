@@ -48,7 +48,7 @@ struct UserProfileView: View {
                         Text("About")
                             .fontWeight(.semibold)
                         
-                        Text("Some test bio for now")
+                        Text(user.extendedBio)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()

@@ -29,7 +29,7 @@ struct UserInfoView: View {
                     
                 }
             }
-            Text("Bold Authentic Flavors")
+            Text(user.bio)
                 .font(.subheadline)
                 .lineLimit(2)
         }

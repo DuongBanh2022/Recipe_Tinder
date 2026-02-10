@@ -12,4 +12,6 @@ struct User: Identifiable, Hashable {
     let username: String
     var age: Int?
     var profileImageURLS: [String]
+    var bio: String
+    var extendedBio: String
 }

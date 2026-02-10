@@ -25,10 +25,10 @@ struct CardStackView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading){
-                    Image(systemName: "person.crop.circle")
+                    Image(.image)
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 44)
+                        .frame(width: 300, height: 250)
                 }
             }
         }

@@ -14,13 +14,17 @@ struct MainTabView: View {
                 .tabItem{ Image (systemName: "flame")}
                 .tag(0)
             
-            Text("Search View")
+            RecipeSearchView()
                 .tabItem{ Image (systemName: "magnifyingglass")}
                 .tag(1)
             
+            Text("Favorites")
+                .tabItem{ Image (systemName: "heart")}
+                .tag(2)
+            
             CurrentUserProfileView(user: MockData.users[0])
                 .tabItem{ Image (systemName: "person")}
-                .tag(2)
+                .tag(3)
         }
         .tint(.primary)
     }

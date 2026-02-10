@@ -28,7 +28,7 @@ struct SwipeActionButtonsView: View {
             .frame(width: 48, height: 48)
             
             Button{
-                
+                viewModel.buttonSwipeAction = .like
             } label: {
                 Image(systemName: "heart.fill")
                     .fontWeight(.heavy)
